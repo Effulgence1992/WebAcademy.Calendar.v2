@@ -1,7 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 .all_blocks {
@@ -265,14 +264,7 @@
 }
 
 .right_panel_days_current_month {
-    /*    width: auto;
-        display: flex;
-        flex-wrap: wrap;
-        text-align: center;
-        position: absolute;
-        top: 356px;
-        left: 99px;
-        right: 100px;  /* надо разобраться почему так */
+
     width: 602px;
     height: 650px;
     position: absolute;
@@ -280,9 +272,6 @@
     left: 102px;
     display: flex;
     flex-wrap: wrap;
-
-
-
 }
 
 .right_panel_days_current_month_days {
@@ -293,6 +282,17 @@
     color: #FFFFFF;
     flex: 1 20px 86px;
     text-align: center;
+}
+
+.right_panel_days_next_month_days {
+    width: 86px;
+    height: 34px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 29px;
+    color: #FFFFFF;
+    flex: 1 20px 86px;
+    text-align: center;
+    opacity: 0.5;
 }
 
 .right_panel_separation_3 {
@@ -369,4 +369,24 @@
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
+}
+
+.circle_1 {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-color: #3C82F9;
+    border-radius: 40px;
+    top: 641px;
+    left: 277px;
+}
+
+.circle_2 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: #3C82F9;
+    border-radius: 40px;
+    top: 641px;
+    left: 362px;
 }
